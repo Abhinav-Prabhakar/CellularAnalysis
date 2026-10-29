@@ -1,0 +1,18 @@
+# Python virtual environment used to build the report
+.venv/
+
+# macOS / editor noise
+.DS_Store
+__pycache__/
+*.pyc
+
+# Local copy of the report with the author's real details — never publish
+CellularAnalysis.pdf
+
+# Reference template supplied by the college (contains other students' details)
+report.pdf
+
+# Fonts extracted from the reference PDF (proprietary); only the open
+# Caladea / Carlito faces are committed
+report_assets/cambria*.ttf
+report_assets/calibri*.ttf
